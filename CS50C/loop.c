@@ -18,7 +18,7 @@ int main(void)
             printf("%d is observed to be less than %d\n", m, x);
             break;
         }
-        elsez
+        else
         {
             printf("Both numbers given are equal\n");
         }
