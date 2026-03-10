@@ -1,0 +1,9 @@
+[submodule "utilsC"]
+	path = utilsC
+	url = https://github.com/divijg19/utilsC.git
+[submodule "netC"]
+	path = netC
+	url = https://github.com/divijg19/netC.git
+[submodule "osC"]
+	path = osC
+	url = https://github.com/divijg19/osC.git
