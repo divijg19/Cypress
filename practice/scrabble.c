@@ -17,6 +17,9 @@ int main() {
     score1 = calculate_score(word1);
     score2 = calculate_score(word2);
 
+    printf("Player 1 score: %d\n", score1);
+    printf("Player 2 score: %d\n", score2);
+
     // Compare and print the result
     if (score1 > score2) {
         printf("Player 1 wins!\n");
@@ -25,10 +28,6 @@ int main() {
     } else {
         printf("It's a tie!\n");
     }
-
-    printf("Player 1 score: %d\n", score1);
-    printf("Player 2 score: %d\n", score2);
-
     return 0;
 }
 
