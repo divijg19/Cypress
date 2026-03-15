@@ -34,8 +34,9 @@ int main() {
 
 int calculate_score(char word[]) {
     int score = 0;
-    
-    for (int i = 0; i < strlen(word); i++) {
+    int length = strlen(word);
+
+    for (int i = 0; i < length; i++) {
         char letter = toupper(word[i]); // Convert to uppercase for uniform scoring
         if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ||
             letter == 'L' || letter == 'N' || letter == 'S' || letter == 'T' || letter == 'R') {
