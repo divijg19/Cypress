@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int calculate_score(char word[]);
 
@@ -35,7 +36,7 @@ int calculate_score(char word[]) {
     int score = 0;
     
     for (int i = 0; i < strlen(word); i++) {
-        char letter = word[i];
+        char letter = toupper(word[i]); // Convert to uppercase for uniform scoring
         if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ||
             letter == 'L' || letter == 'N' || letter == 'S' || letter == 'T' || letter == 'R') {
             score += 1;
