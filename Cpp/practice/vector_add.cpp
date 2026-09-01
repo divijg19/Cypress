@@ -10,7 +10,7 @@ public:
     this->y = y;
   }
 
-  Vector2D operator+(const Vector2D &other) {
+  Vector2D operator+(const Vector2D &other) const {
     return Vector2D(x + other.x, y + other.y);
   }
 };
